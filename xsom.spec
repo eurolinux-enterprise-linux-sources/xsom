@@ -2,7 +2,7 @@
 
 Name: xsom
 Version: 0
-Release: 10.%{checkout}svn%{?dist}
+Release: 9.%{checkout}svn%{?dist}
 Summary: XML Schema Object Model (XSOM)
 Group: Development/Libraries
 License: CDDL or GPLv2 with exceptions
@@ -117,9 +117,6 @@ cp -rp target/site/apidocs/* %{buildroot}%{_javadocdir}/%{name}
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0-10.20110809svn
-- Mass rebuild 2013-12-27
-
 * Fri Feb 22 2013 Juan Hernandez <juan.hernandez@redhat.com> - 0-9.20110809svn
 - Add build dependency on maven-shared (rhbz 914590)
 
